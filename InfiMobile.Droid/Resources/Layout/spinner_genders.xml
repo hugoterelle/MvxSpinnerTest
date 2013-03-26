@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TextView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:local="http://schemas.android.com/apk/res/InfiMobile.Droid"
+  style="?android:attr/spinnerDropDownItemStyle"
+  android:singleLine="true"
+  android:layout_width="match_parent"
+  android:layout_height="?android:attr/listPreferredItemHeight"
+  local:MvxBind="Text Label" />

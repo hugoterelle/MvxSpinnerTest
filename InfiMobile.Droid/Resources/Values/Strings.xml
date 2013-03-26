@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Hello">Hello World, Click Me!</string>
+    <string name="ApplicationName">InfiMobile.Droid</string>
+
+  <string name="new_care" lang="fr">Nouvelle demande de soin</string>
+  <string name="list_cares" lang="fr">Liste des soins</string>
+
+  <string name="new_patient" lang="fr">Nouveau patient</string>
+  <string name="list_patients" lang="fr">Liste des patients</string>
+
+  <string name="patient" lang="fr">Patient</string>
+  <string name="care" lang="fr">Soin</string>
+
+  <string name="save" lang="fr">Sauvegarder</string>
+  <string name="cancel" lang="fr">Annuler</string>
+
+  <string name="firstname" lang="fr">Prénom</string>
+  <string name="lastname" lang="fr">Nom</string>
+  <string name="gender" lang="fr">Genre</string>
+  <string name="dateofbirth" lang="fr">Date de naissance</string>
+  <string name="niss" lang="fr">Numéro de sécurité sociale (NISS)</string>
+  <string name="phone" lang="fr">Numéro de téléphone</string>
+  <string name="oaregistration" lang="fr">N\° d\'inscription de l\'O.A.</string>
+  <string name="oaidentification" lang="fr">N\° d\'identification de l\'O.A.</string>
+</resources>

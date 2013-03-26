@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:local="http://schemas.android.com/apk/res/InfiMobile.Droid"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+  <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Mvx.MvxSpinner
+      android:layout_width="match_parent"
+      android:layout_height="?android:attr/listPreferredItemHeight"
+      local:MvxDropDownItemTemplate="@layout/spinner_genders"
+      local:MvxItemTemplate="@layout/spinner_genderitem"
+      local:MvxBind="ItemsSource Genders; SelectedItem Gender"/>
+
+    <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/save"
+      local:MvxBind="Click CommandSave"/>
+
+  </LinearLayout>
+</ScrollView>
